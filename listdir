@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+
+import importlib
+module = input("please enter the name of the module: ")
+
+for i in dir(importlib.import_module(module)):
+    print(i)
